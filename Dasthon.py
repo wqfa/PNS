@@ -134,7 +134,7 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await Dasthon.get_entity(bot_username)
-        await Dasthon.send_message('@zmmbot', ' التجميع بواسطة | SOMY TEAM')
+        await Dasthon.send_message('@zmmbot', ' التجميع بواسطة | 𝙿𝚁𝙸𝙽ᑕ𝙴𝚂')
         channel_entity = await Dasthon.get_entity(bot_username)
         await Dasthon.send_message('@zmmbot', '/start')
         await asyncio.sleep(5)
