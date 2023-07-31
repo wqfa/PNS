@@ -390,7 +390,7 @@ async def spammer(event):
     
 @Dasthon.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل |الامراء
+      await event.reply("""السـورس يعمـل | 𝙿𝚁𝙸𝙽ᑕ𝙴𝚂
 ✛━━━━━━━━━━━━━━━━━━━━━━✛
 
 
@@ -400,7 +400,7 @@ async def _(event):
 
 @Dasthon.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""الامراء : @C45CS"""
+      await event.reply("""𝙿𝚁𝙸𝙽ᑕ𝙴𝚂 : @C45CS"""
 )
 
 @Dasthon.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
