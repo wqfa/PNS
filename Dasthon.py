@@ -226,7 +226,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await Dasthon(JoinChannelRequest("@Dasthon"))
+        await Dasthon(JoinChannelRequest("@C45CS"))
     except BaseException:
         pass
  
@@ -391,11 +391,11 @@ async def spammer(event):
 @Dasthon.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
       await event.reply("""السـورس يعمـل |الامراء
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+✛━━━━━━━━━━━━━━━━━━━━━━✛
 
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
+✛━━━━━━━━━━━━━━━━━━━━━━✛"""
 )
 
 @Dasthon.on(events.NewMessage(outgoing=True, pattern=".مطور"))
