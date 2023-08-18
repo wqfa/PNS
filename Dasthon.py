@@ -36,7 +36,7 @@ import requests
 
 Dasthon.start()
 c = requests.session()
-bot_username = '@zmmbot'
+bot_username = '@eeobot'
 bot_usernamee = '@A_MAN9300BOT'
 
 y = datetime.datetime.now().year
