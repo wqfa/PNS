@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-   1260465030,
+   5191376406,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -76,16 +76,17 @@ async def _(event):
 @Dasthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("𝗗𝗔𝗦 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - جاري الفحص....")
+    await event.edit("princes Sources - جاري الفحص....")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**𝗗𝗔𝗦 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 - تــشـيـكـر داسـ
-☆ VERSION : 3.3
-☆ PING : `{ms}`
-☆ DATE : `{m9zpi}`
-☆ ID : `{event.sender_id}`
-☆ 𝗗𝗔𝗦 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 : @Dasthon**
+**父 Sources of princes ✓ 父
+‎⿻┊‌‎‌‎𝙽𝙰𝙼𝙴 𖠄 None ٫
+‌‎⿻┊‌‎‌‎𝙿𝚈𝚃𝙷𝙾𝙽 𖠄 3.10.5 ٫
+‌‎⿻┊‌‎‌‎‌‎𝙿𝙸𝙽𝙶 𖠄 `{ms}`
+‌‎⿻┊‌‎‌‎‌‎𝚂𝙴𝚃𝚄𝙿 𝙳𝙰𝚃𝙴 𖠄 `{m9zpi}`
+‌‎⿻┊‌‎‌‎‌‎𝙸𝙳 𖠄 `{event.sender_id}`
+‌‎⿻┊‌‎‌‎‌‎𝙶𝚁𝙾𝚄𝙿 𖠄 @VebThon ٫**
 
 -قـم بإرسال `.الاوامر`
 ''')
@@ -132,14 +133,14 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await Dasthon.get_entity(bot_username)
-        await Dasthon.send_message('@zmmbot', ' التجميع بواسطة | SOMY TEAM')
+        await Dasthon.send_message('@eeobot', ' التجميع بواسطة | SOMY TEAM')
         channel_entity = await Dasthon.get_entity(bot_username)
-        await Dasthon.send_message('@zmmbot', '/start')
+        await Dasthon.send_message('@eeobot', '/start')
         await asyncio.sleep(5)
-        msg0 = await Dasthon.get_messages('@zmmbot', limit=1)
+        msg0 = await Dasthon.get_messages('@eeobot', limit=1)
         await msg0[0].click(2)
         await asyncio.sleep(5)
-        msg1 = await Dasthon.get_messages('@zmmbot', limit=1)
+        msg1 = await Dasthon.get_messages('@eeobot', limit=1)
         await msg1[0].click(0)
 
         chs = 1
@@ -151,7 +152,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await Dasthon.send_message(event.chat_id, f"لايوجد قنوات  في البوت | DS")
+                await Dasthon.send_message(event.chat_id, f"لايوجد قنوات  في البوت | VT")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
@@ -196,7 +197,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await Dasthon.send_message(event.chat_id, f"لايوجد قنوات  في البوت | DS")
+                await Dasthon.send_message(event.chat_id, f"لايوجد قنوات  في البوت | VT")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
