@@ -121,7 +121,7 @@ ownerhson_id = 1041483862
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك داسـ ابشر  @T_ITITIT')
+        order = await event.reply('سـورس الـجناح يـرحب بـكم')
 
 @Dasthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -133,7 +133,7 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await Dasthon.get_entity(bot_username)
-        await Dasthon.send_message('@eeobot', ' التجميع بواسطة | SOMY TEAM')
+        await Dasthon.send_message('@eeobot', ' التجميع بواسطة | ST')
         channel_entity = await Dasthon.get_entity(bot_username)
         await Dasthon.send_message('@eeobot', '/start')
         await asyncio.sleep(5)
@@ -178,7 +178,7 @@ async def _(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await Dasthon.get_entity(bot_usernamee)
-        await Dasthon.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | SOMY TEAM')
+        await Dasthon.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | XF')
         channel_entity = await Dasthon.get_entity(bot_usernamee)
         await Dasthon.send_message('@A_MAN9300BOT', '/start')
         await asyncio.sleep(5)
@@ -236,7 +236,7 @@ GCAST_BLACKLIST = [
 ]
 
 DEVS = [
-    5159123009,
+    5191376406,
 ]
 
 def calc(num1, num2, fun):
